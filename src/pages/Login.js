@@ -1,12 +1,7 @@
 import React, { Component }  from 'react';
-import axios from 'axios'
 import {useEffect, useState} from 'react'
 import Button from 'react-bootstrap/Button'
-import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row'
-import Card from 'react-bootstrap/Card'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Routes, Route} from 'react-router'
 import { BrowserRouter, useNavigate } from 'react-router-dom';
 
 
