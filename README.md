@@ -1,4 +1,4 @@
-Please Note GIT VERSION CONTROL WAS NOT USED
+Please Note Git Version Control Was Not Used In This Project
 
 # Getting Started with Create React App
 
