@@ -9,7 +9,6 @@ function Login ({authenticate}){
     const navigate = useNavigate()
 
     useEffect(() => {
-        console.log(process.env)
         const hash = window.location.hash
         let token = localStorage.getItem("token")
         if (hash){

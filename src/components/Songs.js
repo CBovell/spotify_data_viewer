@@ -31,9 +31,7 @@ function Songs({token_, duration}){
       })
       .then((response) => {
         setData(response.data.items)
-        console.log(response.data.items)
-        
-        
+    
       })
       .catch((error) => {
         console.log(error);

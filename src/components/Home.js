@@ -24,10 +24,6 @@ function Home({token_, logout}){
       })
       .then((response) => {
         setData(response.data)
-        console.log(data)
-        
-        
-        
       })
       .catch((error) => {
         console.log(error);
@@ -46,7 +42,6 @@ function Home({token_, logout}){
           },
         })
         .then((response) => {
-          console.log(response.data.item)
           setPlaying(response.data.item)
           
           
